@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.gfonts{
+  font-family: Bungee Spice;
+ }
+ .card{
+    background-color:#150827
+ }
+ .solanaInputLogo{
+    background: url(../public/images/Solana_logo.png) no-repeat right;
+    padding-right: 40px;
+    background-size: 40px;
+    background-color: white; 
+ } 
+ .sodsInputLogo{
+    background: url(../public/images/Logo/o10.png) no-repeat right;
+    padding-right: 40px;
+    background-size: 40px;
+    background-color: white; 
+ }
