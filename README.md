@@ -40,9 +40,11 @@ We welcome contributions to this project! If you'd like to contribute, please fo
 
 If you have any questions, suggestions, or issues, feel free to reach out to us:
 
-- **Email**: contact@algobasket.com
+- **Email**: algobasket@gmail.com
 - **Twitter**: [@algobasket](https://twitter.com/algobasket)
-- **Website**: [Algobasket](https://algobasket.com)
+- **Youtube Channel**: [Algobasket](https://youtube.com/algobasket)
+- **Live Coding**: [Algobasket](https://youtube.com/algobasketlive)
+- **All Socials**: [Algobasket](https://linktr.ee/algobasket) 
 
 ## Donate
 
