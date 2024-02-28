@@ -14,22 +14,27 @@ const MainContent = () => {
         const { publicKey, sendTransaction, connection } = useWallet();
         const [purchaseAmount, setPurchaseAmount] = useState(0); 
 
-       
-        useEffect(() => {
-          
-            function solanaInputLogo(x)   
-            {
-                console.log(x);   
-                if(x <= 20)
-                {
-                    x = 2000000 * x;   
-                    // Convert x to a decimal number with 2 decimal places
-                    var xDecimal = x.toFixed(2);
-                    $('.sodsInputLogo').val(xDecimal);
-                } 
-            }
+        // State to manage the value of the input field
+        const [inputValue, setInputValue] = useState('');
 
-    }, []);  
+        // Function to handle input changes and perform sanitization
+        const handleInputChange = (event) => {
+            // Replace non-numeric and non-decimal characters
+            const sanitizedValue = event.target.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');
+            setInputValue(sanitizedValue);
+        };
+
+        // Function to handle key up events and perform calculations
+        const handleKeyUp = (event) => {
+             let x = parseFloat(event.target.value); // Assuming event.target.value contains the number x
+             let y = 2000000 * x;
+            // Convert x to a decimal number with 2 decimal places
+            let xDecimal = y.toFixed(2);
+
+            // Set the value of input field with class .sodsInputLogo to xDecimal
+            document.querySelector('.sodsInputLogo').value = xDecimal; 
+        };
+
   
     //const { open, connect, connected } = useWalletModal(); 
 
@@ -207,7 +212,15 @@ const MainContent = () => {
                                         <form>
                                         <div className="mb-3 input-group-lg">
                                             <label htmlFor="amt_in_sol" className="form-label text-white" style={{ fontSize: '20px' }}>Amount in SOL You Pay:</label> 
-                                            <input type="text" className="form-control lg-input solanaInputLogo" id="amt_in_sol" placeholder="Min 0.5 SOL | Max 20 SOL" onKeyUp={(e) => solanaInputLogo(e.target.value)} onInput={(e) => e.target.value = e.target.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1')} />
+                                            <input 
+                                                type="text"
+                                                className="form-control lg-input solanaInputLogo"
+                                                id="amt_in_sol"
+                                                placeholder="Min 0.5 SOL | Max 20 SOL"
+                                                value={inputValue}
+                                                onChange={handleInputChange}
+                                                onKeyUp={handleKeyUp}
+                                            />
                                         </div>
                                         <div className="mb-3 input-group-lg">  
                                             <label htmlFor="amt_sods" className="form-label text-white" style={{ fontSize: '20px' }}>Amount in $SODS You Receive:</label>
