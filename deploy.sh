@@ -1,5 +1,5 @@
 echo "Switching to branch master"
-git checkout master
+git checkout main
 
 
 echo "Building app ..."

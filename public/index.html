@@ -45,7 +45,7 @@
       <a href="javascript:void(0)" class="whySods">Why $SODS</a>
       <a href="javascript:void(0)" class="tokenomics">Tokenomics</a>
       <a href="javascript:void(0)" class="howItWorks">How It Works</a>
-      <a href="/WhitepaperPage">WhitePaper</a> 
+      <a href="/whitepaper">WhitePaper</a> 
   </div> 
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -65,7 +65,8 @@
      <script src="%PUBLIC_URL%/js/bootstrap.bundle.min.js "></script>
      <script src="%PUBLIC_URL%/js/jquery-3.0.0.min.js "></script>
      <script src="%PUBLIC_URL%/js/custom.js "></script>
-     <script type="text/javascript"> 
+     <!-- <script type="text/javascript">
+      function countdown_timer(){  
          // Set the date we're counting down to
            var countDownDate = new Date("Jul 13, 2024 12:00:00 GMT-4").getTime();
 
@@ -117,7 +118,8 @@
              document.getElementById("hours").innerHTML = "EXPIRED";
 
            }, 1000);
-     </script>
+          }
+     </script> -->
      <script type="text/javascript">
          $(".buy_now_scroll").click(function() {
           console.log("Test");
@@ -150,13 +152,13 @@
                scrollTop: $(".works").offset().top}, 
                'slow');
          });
-     </script>
+     </script> 
 
   
-   <script type="text/javascript">  
+   <!-- <script type="text/javascript">  
        function solanaInputLogo(x)
        {
-           console.log(x);   
+           console.log(x);    
            if(x <= 20)
            {
               x = 2000000 * x;   
@@ -165,7 +167,8 @@
              $('.sodsInputLogo').val(xDecimal);
            } 
        }
-   </script>
+   </script> -->
+
   </body>
 </html>
 

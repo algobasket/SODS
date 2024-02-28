@@ -1,26 +1,24 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 
-//import { BrowserRouter, Route } from 'react-router-dom';
-//import HomePage from './HomePage'; 
-//import WhitepaperPage from './WhitepaperPage';
+import Layout from './Layout';
+import HomePage from './HomePage';
+import WhitepaperPage from './WhitepaperPage'; 
+import NoPage from './NoPage'; 
 
 import './App.css';  
-import Header from './Header'; 
-import MainContent from './MainContent';  
-import Footer from './Footer';
-
-
+ 
 
 function App() {
   return (
-    
-      <div className="App">
-         <Header />
-           <MainContent />     
-         <Footer />
-      </div> 
-    
-  );
+    <BrowserRouter>
+            <Routes>
+                    <Route exact path="/" element={<HomePage />} />
+                    <Route exact path="/whitepaper" element={<WhitepaperPage />} />
+                    <Route exact path="*" element={<NoPage />} />
+            </Routes>
+    </BrowserRouter>   
+  ); 
 }
 
 export default App;

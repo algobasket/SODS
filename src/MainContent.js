@@ -3,73 +3,33 @@
 /* global $ */ 
 
 import React, { useEffect,useState } from 'react';  
-import { useWallet } from '@solana/wallet-adapter-react'; 
+import { useWallet } from '@solana/wallet-adapter-react';  
  
 import Wallet from './Wallet';
-import HoldingStats from './HoldingStats'; 
+import HoldingStats from './HoldingStats';
+import CountDownTimer from './CountDownTimer';  
 
-const MainContent = () => {
+const MainContent = () => { 
 
-    const { publicKey, sendTransaction, connection } = useWallet();
-    const [purchaseAmount, setPurchaseAmount] = useState(0);
+        const { publicKey, sendTransaction, connection } = useWallet();
+        const [purchaseAmount, setPurchaseAmount] = useState(0); 
 
-     if(publicKey)
-     {
+       
+        useEffect(() => {
+          
+            function solanaInputLogo(x)   
+            {
+                console.log(x);   
+                if(x <= 20)
+                {
+                    x = 2000000 * x;   
+                    // Convert x to a decimal number with 2 decimal places
+                    var xDecimal = x.toFixed(2);
+                    $('.sodsInputLogo').val(xDecimal);
+                } 
+            }
 
-     }
-
-    useEffect(() => {
-        // Attach the existing jQuery event handler when the component mounts
-        $(".buy_now_scroll").click(function() {
-            console.log("Test");
-             $('html,body').animate({
-                 scrollTop: $("#walletDiv").offset().top}, 
-                 'slow');
-           }); 
-           $(".direct_transfer_scroll").click(function() {
-             $('html,body').animate({
-                 scrollTop: $("#directTransferDiv").offset().top}, 
-                 'slow');
-           });
-           $(".aboutSods").click(function() { 
-             $('html,body').animate({
-                 scrollTop: $(".about").offset().top}, 
-                 'slow'); 
-           });
-           $(".whySods").click(function() {
-             $('html,body').animate({
-                 scrollTop: $("#directTransferDiv").offset().top}, 
-                 'slow');
-           });
-           $(".tokenomics").click(function() {
-             $('html,body').animate({
-                 scrollTop: $(".testimonial").offset().top}, 
-                 'slow');
-           }); 
-           $(".howItWorks").click(function() {
-             $('html,body').animate({
-                 scrollTop: $(".works").offset().top}, 
-                 'slow');
-           });
-           function solanaInputLogo(x)
-       {
-           console.log(x);   
-           if(x <= 20)
-           {
-              x = 2000000 * x;   
-             // Convert x to a decimal number with 2 decimal places
-             var xDecimal = x.toFixed(2);
-             $('.sodsInputLogo').val(xDecimal);
-           } 
-       }
-
-       function connect()
-       {
-
-       }
-
-        
-    }, []);
+    }, []);  
   
     //const { open, connect, connected } = useWalletModal(); 
 
@@ -236,20 +196,8 @@ const MainContent = () => {
                                         <h2 style={{ fontSize: '50px' }} className="gfonts">$SODS PRESALE IS LIVE</h2>
                                         <h2 style={{ fontSize: '25px' }}>LAST CHANCE TO BUY SPONGE BEFORE LISTINGS</h2>
                                     </div>
-                                    <div className="row text-center">
-                                            <div className="col-sm-4">
-                                                <h1 style={{ fontSize: '70px', fontWeight: 'bolder' }} id="hours"></h1>
-                                                <br/><h3 style={{ fontSize: '30px', fontWeight: 'bolder' }}>Hours</h3> 
-                                            </div>
-                                            <div className="col-sm-4">
-                                                <h1 style={{ fontSize: '70px', fontWeight: 'bolder' }} id="minutes"></h1>
-                                                <br/><h3 style={{ fontSize: '30px', fontWeight: 'bolder' }}>Mins</h3> 
-                                            </div>
-                                            <div className="col-sm-4">
-                                                <h1 style={{ fontSize: '70px', fontWeight: 'bolder' }} id="seconds"></h1>
-                                                <br/><h3 style={{ fontSize: '30px', fontWeight: 'bolder' }}>Sec</h3> 
-                                            </div>  
-                                    </div>
+
+                                        <CountDownTimer /> 
 
                                     <div className="alert alert-dark text-center">
                                         <HoldingStats />
