@@ -5,6 +5,7 @@
 ## Project Overview
 
 This project is a React application that facilitates the PreSale of SODS Token using the Solana Blockchain. The application is built with React, Express, and Node.js.
+Wallet Integrated - Solana Wallet Adaptor + More  
 
 ### Running the Application
 
