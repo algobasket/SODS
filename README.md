@@ -44,7 +44,7 @@ If you have any questions, suggestions, or issues, feel free to reach out to us:
 - **Email**: algobasket@gmail.com
 - **Twitter**: [@algobasket](https://twitter.com/algobasket)
 - **Youtube Channel**: [Algobasket](https://youtube.com/algobasket)
-- **Live Coding**: [Algobasket](https://youtube.com/algobasketlive)
+- **Live Coding**: [Algobasket](https://youtube.com/@algobasketlive)
 - **All Socials**: [Algobasket](https://linktr.ee/algobasket) 
 
 ## Donate
