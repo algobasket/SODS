@@ -1,7 +1,9 @@
 # PreSale SODS Token using Solana Blockchain - React App
 
 This project used React,Express and Nodejs
-## Project Info
+
+![](https://raw.githubusercontent.com/algobasket/SODS/main/public/images/Twitter-Header/t1.png)
+## Project Info 
 
 In the project directory, you can run:
 
