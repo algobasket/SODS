@@ -10,16 +10,13 @@ const Header = () => {
                     <div className="row d-flex">
                         <div className="col-sm-3">
                             <div className="logo">
-                                <a href="index.html">$SODS</a> 
+                                <a href="/">SOLANA CHADS</a> 
                             </div>
                         </div>
                         <div className="col-sm-5">
-                            <ul className="social_icon text_align_right d-none">
-                                <li><a href="javascript:void(0)"><i className="fa fa-facebook-f"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <ul className="social_icon text_align_right">
+                                <li><a href="https://twitter.com/solana_chads" target="__blank"><i className="fa fa-twitter"></i></a></li>
+                                <li><a href="https://t.me/solanachadsss" target="__blank"><i className="fa fa-telegram" aria-hidden="true"></i></a></li> 
                             </ul>
                         </div>
                         <div className="col-sm-4">

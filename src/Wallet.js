@@ -24,7 +24,7 @@ require('@solana/wallet-adapter-react-ui/styles.css');
 
 function Wallet() {
     // you can use Mainnet, Devnet or Testnet here
-    const solNetwork = WalletAdapterNetwork.Testnet;
+    const solNetwork = WalletAdapterNetwork.Mainnet;    
     const endpoint = useMemo(() => clusterApiUrl(solNetwork), [solNetwork]);
     // initialise all the wallets you want to use
     const wallets = useMemo(

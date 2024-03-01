@@ -7,34 +7,17 @@ const Footer = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <a class="logo_bottom" href="index.html">$SODS</a>
+                        <a class="logo_bottom gfonts" href="/" style={{ fontFamily: 'Silkscreen' }}>SOLANA CHADS</a>
                     </div>
                     <div class="col-md-3 col-sm-6">
                   <div class="Informa conta ">
-                     <h3>Contact Us</h3>
+                     <h3>Available Now</h3>
                      <ul>
-                        <li> <a href="Javascript:void(0) "> <i class="fa fa-map-marker " aria-hidden="true "></i> Location
-                           </a>
+                        <li> 
+                           <a className="read_more buy_now_scroll" href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now </a>
                         </li>
-                        <li> <a href="Javascript:void(0) "><i class="fa fa-phone " aria-hidden="true "></i> Call +011234567890
-                           </a>
-                        </li>
-                        <li> <a href="Javascript:void(0) "> <i class="fa fa-envelope " aria-hidden="true "></i> support@sods.com
-                           </a>
-                        </li>
-                     </ul>
-                     <ul>
-                        <li>Readable content of                              
-                        </li>
-                        <li>a page when looking                           
-                        </li>
-                        <li>at its layoutreadable                          
-                        </li>
-                        <li>content of a page                             
-                        </li>
-                        <li>when looking at its                         
-                        </li>
-                        <li>layout                          
+                        <li> 
+                          <br /><a className="read_more" href="https://t.me/solanachadsss" target="_blank"><i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>
                         </li>
                      </ul>
                   </div>
@@ -43,11 +26,11 @@ const Footer = () => {
                         <div class="Informa helpful">
                             <h3>Social Link</h3>
                             <ul>
-                                <li>Youtube</li>
-                                <li>Twitter</li>
-                                <li>Facebook</li>
-                                <li>Telegram</li>
-                                <li>Discord</li>
+                                <li><a href="https://youtube.com/solana_chads" target="__blank">Youtube</a></li>
+                                <li><a href="https://twitter.com/solana_chads" target="__blank">Twitter</a></li>
+                                <li><a href="https://facebook.com/solana_chads" target="__blank">Facebook</a></li>
+                                <li><a href="https://t.me/solanachadsss" target="__blank">Telegram</a></li>
+                                <li><a href="https://discord.com/channels/1189623776565014528/1189623777420640339" target="__blank">Discord</a></li>
                             </ul>
                         </div>
                     </div>
@@ -55,7 +38,7 @@ const Footer = () => {
                   <div class="Informa ">
                      <h3>About Us</h3>
                      <ul>
-                        <li>Meet $SODS, making a splash in the crypto sea. Our mascot, the porous trendsetter, knows how to soak up the excitement in the decentralized world. With a pineapple under the sea and a wallet on the blockchain, $SODS is not just a currency</li> 
+                        <li>Meet SOLANA CHADS, making a splash in the crypto sea. Our mascot, the porous trendsetter, knows how to soak up the excitement in the decentralized world. With a pineapple under the sea and a wallet on the blockchain, SOLANA CHADS is not just a currency</li> 
                      </ul>
                   </div>
                </div>
@@ -64,7 +47,7 @@ const Footer = () => {
                      <h3>Newsletter</h3> 
                      <form class="newslatter_form ">  
                         <input class="ente " placeholder="Enter your email " type="text " name="Enter your email " />
-                        <button class="subs_btn ">Subscribe</button>
+                        <button class="subs_btn" type="button">Subscribe</button>
                      </form>
                   </div>
                </div>
@@ -73,7 +56,8 @@ const Footer = () => {
                <div class="container ">
                   <div class="row ">
                      <div class="col-md-12 ">
-                        <p>© 2024 All Rights Reserved.<a href="/"> $SODS</a></p> 
+                        <p>© 2024 All Rights Reserved.<a href="/"> SOLANA CHADS</a></p>   
+                        <a class="logo_bottom gfonts" href="/" style={{ fontFamily: 'Silkscreen', fontSize: '20px' }}>Developed By Algobasket</a>
                      </div>
                   </div>
                </div>

@@ -9,7 +9,42 @@ import Wallet from './Wallet';
 import HoldingStats from './HoldingStats';
 import CountDownTimer from './CountDownTimer';  
 
-const MainContent = () => { 
+const MainContent = () => {
+    
+    
+       useEffect(() => {
+        $(".buy_now_scroll").click(function() {
+            console.log("Test");
+             $('html,body').animate({
+                 scrollTop: $("#walletDiv").offset().top}, 
+                 'slow');
+           }); 
+           $(".direct_transfer_scroll").click(function() {
+             $('html,body').animate({
+                 scrollTop: $("#directTransferDiv").offset().top}, 
+                 'slow');
+           });
+           $(".aboutSods").click(function() { 
+             $('html,body').animate({
+                 scrollTop: $(".about").offset().top}, 
+                 'slow'); 
+           });
+           $(".whySods").click(function() {
+             $('html,body').animate({
+                 scrollTop: $("#directTransferDiv").offset().top}, 
+                 'slow');
+           });
+           $(".tokenomics").click(function() {
+             $('html,body').animate({
+                 scrollTop: $(".testimonial").offset().top}, 
+                 'slow');
+           });
+           $(".howItWorks").click(function() {
+             $('html,body').animate({
+                 scrollTop: $(".works").offset().top}, 
+                 'slow');
+           });
+       },[]);
 
         const { publicKey, sendTransaction, connection } = useWallet();
         const [purchaseAmount, setPurchaseAmount] = useState(0); 
@@ -65,9 +100,11 @@ const MainContent = () => {
                                                     <div className="col-md-6">
                                                         <div className="bluid">
                                                             <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>$SODS</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>SOLANA</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>CHADS</span></h1>
                                                             <p style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '24px' }}>Your Ticket to Solana Adventures!<br />Explore Solana with $SODS - Smart, Fun, and Rewarding. </p>
-                                                            <a className="read_more buy_now_scroll" href="javascript:void(0)">Buy Now </a><a className="read_more" href="javascript:void(0)">Join Our Telegram</a>
+                                                            <a className="read_more buy_now_scroll" href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now </a>
+                                                            <a className="read_more" href="https://t.me/solanachadsss" target="_blank"><i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -86,9 +123,11 @@ const MainContent = () => {
                                                     <div className="col-md-6">
                                                         <div className="bluid">
                                                             <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>$SODS</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>SOLANA</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>CHADS</span></h1>
                                                             <p style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '24px' }}>Your Ticket to Solana Adventures!<br />Explore Solana with $SODS - Smart, Fun, and Rewarding. </p>
-                                                            <a className="read_more" href="javascript:void(0)">Buy Now </a><a className="read_more" href="javascript:void(0)">Join Our Telegram</a>
+                                                            <a className="read_more buy_now_scroll" href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now </a>
+                                                            <a className="read_more" href="https://t.me/solanachadsss" target="_blank"><i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -107,9 +146,11 @@ const MainContent = () => {
                                                     <div className="col-md-6">
                                                         <div className="bluid">
                                                             <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>$SODS</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>SOLANA</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>CHADS</span></h1>
                                                             <p style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '24px' }}>Your Ticket to Solana Adventures!<br />Explore Solana with $SODS - Smart, Fun, and Rewarding. </p>
-                                                            <a className="read_more" href="javascript:void(0)">Buy Now </a><a className="read_more" href="javascript:void(0)">Join Our Telegram</a>
+                                                            <a className="read_more buy_now_scroll" href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now </a>
+                                                            <a className="read_more" href="https://t.me/solanachadsss" target="_blank"><i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -171,10 +212,10 @@ const MainContent = () => {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="titlepage text_align_left">
-                                        <h2 style={{ fontFamily: 'Silkscreen' }}>What is $SODS</h2>
+                                        <h2 style={{ fontFamily: 'Silkscreen' }}>What is SOLANA CHADS</h2>
                                     </div>
                                     <div className="about_text">
-                                        <p>$SODS is a cool token on the Solana blockchain that uses smart tech and awesome data analytics. It's not just a token; it's your sidekick in the big crypto world. With $SODS, investing is easy, fun, and rewarding. Get ready for a functional product right from the start, and we have even more cool features in the works to make your crypto adventure awesome!</p>
+                                        <p>SOLANA CHADS is a cool token on the Solana blockchain that uses smart tech and awesome data analytics. It's not just a token; it's your sidekick in the big crypto world. With $SODS, investing is easy, fun, and rewarding. Get ready for a functional product right from the start, and we have even more cool features in the works to make your crypto adventure awesome!</p>
                                         <a className="read_more" href="about.html">Read More</a>
                                     </div>
                                 </div>
@@ -198,7 +239,7 @@ const MainContent = () => {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="text-center">
-                                        <h2 style={{ fontSize: '50px' }} className="gfonts">$SODS PRESALE IS LIVE</h2>
+                                        <h2 style={{ fontSize: '50px' }} className="gfonts">SOLANA CHADS PRESALE IS LIVE</h2>
                                         <h2 style={{ fontSize: '25px' }}>LAST CHANCE TO BUY SPONGE BEFORE LISTINGS</h2>
                                     </div>
 
@@ -249,9 +290,9 @@ const MainContent = () => {
                     </div>
                     <div className="col-md-8">
                         <div className="">
-                            <h1 style={{ fontSize: '50px' }} className="gfonts">Join SODS's Presale Early</h1>
+                            <h1 style={{ fontSize: '50px' }} className="gfonts">Join SOLANA CHADS's Presale Early</h1>
                             <h1 style={{ fontSize: '35px' }}>Early Access Now Available!</h1><br/>
-                            <p style={{ fontSize: '20px' }}>The SODS presale is currently active, giving you the chance to be part of it before the official launch. This public presale operates on a first-come, first-served basis, ensuring equal opportunities for everyone. Our aim is to show appreciation to our early supporters by granting them priority access before the official launch.</p>
+                            <p style={{ fontSize: '20px' }}>The SOLANA CHADS presale is currently active, giving you the chance to be part of it before the official launch. This public presale operates on a first-come, first-served basis, ensuring equal opportunities for everyone. Our aim is to show appreciation to our early supporters by granting them priority access before the official launch.</p>
                         </div>
                     </div>
                 </div>
@@ -270,7 +311,7 @@ const MainContent = () => {
                                         <h2 style={{ fontSize: '50px' }} className="gfonts">Alternative Participation Method</h2><br/>
                                         <p style={{ fontSize: '20px' }}>If you prefer an alternative way to participate in the presale or encounter difficulties accessing the dapp or connecting your wallet to our website for security reasons, you can still join the presale. Simply send SOL directly to $SODS.sol</p><br/>
                                         <img src={process.env.PUBLIC_URL + 'images/qr.jpg'} style={{ width: '500px' }} alt="QR Code" /><br/><br/>
-                                        <h2 style={{ fontSize: '20px' }}>Secure Your $SODS Tokens Now</h2><br/>
+                                        <h2 style={{ fontSize: '20px' }}>Secure Your SOLANA CHADS Tokens Now</h2><br/>
                                         <button className="btn btn-primary btn-lg" id="connectWallet">Buy Now</button>  
                                     </div>
                                 </div>
@@ -290,8 +331,8 @@ const MainContent = () => {
                                 <div className="col-md-12">
                                     <div className="titlepage text_align_center">
                                         <h2 style={{ fontFamily: 'Silkscreen' }}>Tokenomics</h2><br/>
-                                        <h3 style={{ fontFamily: 'Silkscreen' }}>Discover the SODS Ecosystem</h3><br/>
-                                        <p>$SODS is not just a token; it's a meticulously designed digital currency with a transparent and robust tokenomics <br/>structure. Here's a breakdown of the SODS token distribution to give you a comprehensive understanding of our ecosystem:</p>
+                                        <h3 style={{ fontFamily: 'Silkscreen' }}>Discover the SOLANA CHADS Ecosystem</h3><br/>
+                                        <p>SOLANA CHADS is not just a token; it's a meticulously designed digital currency with a transparent and robust tokenomics <br/>structure. Here's a breakdown of the SODS token distribution to give you a comprehensive understanding of our ecosystem:</p>
                                     </div>
                                 </div>
                             </div>
