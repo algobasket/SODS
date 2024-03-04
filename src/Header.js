@@ -7,10 +7,13 @@ const Header = () => {
         <header> 
             <div className="head-top">
                 <div className="container-fluid"> 
-                    <div className="row d-flex">
+
+
+
+                    <div className="row navMain">
                         <div className="col-sm-3">
                             <div className="logo">
-                                <a href="/">SOLANA CHADS</a> 
+                                <a href="/" style={{ fontSize: '150%' }}>SOLANA CHADS</a> 
                             </div>
                         </div>
                         <div className="col-sm-5">
@@ -31,6 +34,22 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
+
+
+                    <div className="row navMob"> 
+                        <div className="col-sm-6">
+                            <img src={process.env.PUBLIC_URL + '/images/Small-Logo/o6.png'} alt="Menu" style={{ width: '70px',marginTop:'-10px' }} className="float-left"/>
+                            <button className="openbtn float-right" onClick={openNav}>
+                                <img src={process.env.PUBLIC_URL + '/images/menu_btn.png'} alt="Menu" />
+                            </button>
+                        </div>
+                
+                       
+                    </div>
+
+
+
+
                 </div>
             </div>
         </header>

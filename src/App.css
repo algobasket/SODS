@@ -17,3 +17,22 @@
     background-size: 40px;
     background-color: white; 
  }
+ .btnMob,.navMob{
+   display: none;
+}
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+   .display-1 {
+       font-size: 40px;
+   }
+
+   .gfonts {
+       font-size: 80px;
+   }
+   .btnMain,.navMain{ 
+      display: none;
+   } 
+   .btnMob,.navMob{
+      display: block;
+   }
+}

@@ -99,12 +99,34 @@ const MainContent = () => {
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="bluid">
-                                                            <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>SOLANA</span></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>CHADS</span></h1>
+                                                            <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1> 
+                                                            <br />
+                                                            <h1><span className="gfonts" style={{ fontSize: '200%' }}>SOLANA</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '200%' }}>CHADS</span></h1>
                                                             <p style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '24px' }}>Your Ticket to Solana Adventures!<br />Explore Solana with $SODS - Smart, Fun, and Rewarding. </p>
-                                                            <a className="read_more buy_now_scroll" href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now </a>
-                                                            <a className="read_more" href="https://t.me/solanachadsss" target="_blank"><i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>
+                                                            
+                                                            <div className="row btnMain"> 
+                                                                <div className="col-md-6">
+                                                                <a className="btn btn-lg btn-outline-warning buy_now_scroll " href="javascript:void(0)" style={{ padding: '10%' }}>
+                                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Presale Now </a>   
+                                                                </div>
+                                                                <div className="col-md-6">
+                                                                    <a className="btn btn-lg btn-outline-warning " href="https://t.me/solanachadsss" target="_blank" style={{ padding: '10%' }}>   
+                                                                        <i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>  
+                                                                </div>
+                                                            </div>
+
+                                                            <div className="row btnMob"> 
+                                                              
+                                                                <a className="btn btn-lg btn-block btn-warning buy_now_scroll " href="javascript:void(0)">
+                                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Presale Now </a>   
+                                                               
+                                                                  <br />
+                                                                    <a className="btn btn-lg btn-block btn-warning " href="https://t.me/solanachadsss" target="_blank">   
+                                                                        <i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>  
+                                                                
+                                                            </div>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -122,12 +144,32 @@ const MainContent = () => {
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="bluid">
-                                                            <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>SOLANA</span></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>CHADS</span></h1>
+                                                            <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1> 
+                                                            <br />
+                                                            <h1><span className="gfonts" style={{ fontSize: '200%' }}>SOLANA</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '200%' }}>CHADS</span></h1>
                                                             <p style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '24px' }}>Your Ticket to Solana Adventures!<br />Explore Solana with $SODS - Smart, Fun, and Rewarding. </p>
-                                                            <a className="read_more buy_now_scroll" href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now </a>
-                                                            <a className="read_more" href="https://t.me/solanachadsss" target="_blank"><i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>
+                                                            <div className="row btnMain"> 
+                                                                <div className="col-md-6">
+                                                                <a className="btn btn-lg btn-outline-warning buy_now_scroll " href="javascript:void(0)" style={{ padding: '10%' }}>
+                                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Presale Now </a>   
+                                                                </div>
+                                                                <div className="col-md-6">
+                                                                    <a className="btn btn-lg btn-outline-warning " href="https://t.me/solanachadsss" target="_blank" style={{ padding: '10%' }}>   
+                                                                        <i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>  
+                                                                </div>
+                                                            </div>
+
+                                                            <div className="row btnMob"> 
+                                                              
+                                                                <a className="btn btn-lg btn-block btn-warning buy_now_scroll " href="javascript:void(0)">
+                                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Presale Now </a>   
+                                                               
+                                                                  <br />
+                                                                    <a className="btn btn-lg btn-block btn-warning " href="https://t.me/solanachadsss" target="_blank">   
+                                                                        <i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>  
+                                                                
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -145,12 +187,32 @@ const MainContent = () => {
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="bluid">
-                                                            <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>SOLANA</span></h1>
-                                                            <h1><span className="gfonts" style={{ fontSize: '130px' }}>CHADS</span></h1>
+                                                           <h1 className="display-1" style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '60px' }}>Welcome to<br /></h1> 
+                                                            <br />
+                                                            <h1><span className="gfonts" style={{ fontSize: '200%' }}>SOLANA</span></h1>
+                                                            <h1><span className="gfonts" style={{ fontSize: '200%' }}>CHADS</span></h1>
                                                             <p style={{ fontFamily: 'Silkscreen', color: '#fff', fontSize: '24px' }}>Your Ticket to Solana Adventures!<br />Explore Solana with $SODS - Smart, Fun, and Rewarding. </p>
-                                                            <a className="read_more buy_now_scroll" href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Now </a>
-                                                            <a className="read_more" href="https://t.me/solanachadsss" target="_blank"><i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>
+                                                            <div className="row btnMain"> 
+                                                                <div className="col-md-6">
+                                                                <a className="btn btn-lg btn-outline-warning buy_now_scroll " href="javascript:void(0)" style={{ padding: '10%' }}>
+                                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Presale Now </a>   
+                                                                </div>
+                                                                <div className="col-md-6">
+                                                                    <a className="btn btn-lg btn-outline-warning " href="https://t.me/solanachadsss" target="_blank" style={{ padding: '10%' }}>   
+                                                                        <i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>  
+                                                                </div>
+                                                            </div>
+
+                                                            <div className="row btnMob"> 
+                                                              
+                                                                <a className="btn btn-lg btn-block btn-warning buy_now_scroll " href="javascript:void(0)">
+                                                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;Buy Presale Now </a>   
+                                                               
+                                                                  <br />
+                                                                    <a className="btn btn-lg btn-block btn-warning " href="https://t.me/solanachadsss" target="_blank">   
+                                                                        <i className="fa fa-telegram" aria-hidden="true"></i> &nbsp;&nbsp;Join Our Telegram</a>  
+                                                                
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -179,25 +241,25 @@ const MainContent = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div id="wa_hover" className="wallet_box text_align_center">
                             <i><img src={process.env.PUBLIC_URL + 'images/Sticker-Images/2.png'} alt="#" /></i>
-                            <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>CONNECT WALLET</h3>
+                            {/* <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>CONNECT WALLET</h3> */}
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <div id="wa_hover" className="wallet_box text_align_center">
                             <i><img src={process.env.PUBLIC_URL + 'images/Sticker-Images/8.png'} alt="#" /></i>
-                            <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>REWARDING</h3>
+                            {/* <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>REWARDING</h3> */}
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <div id="wa_hover" className="wallet_box text_align_center">
                             <i><img src={process.env.PUBLIC_URL + 'images/Sticker-Images/4.png'} alt="#" /></i>
-                            <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>JUST HODL</h3>
+                            {/* <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>JUST HODL</h3> */}
                         </div>
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <div id="wa_hover" className="wallet_box text_align_center">
                             <i><img src={process.env.PUBLIC_URL + 'images/Sticker-Images/7.png'} alt="#" /></i>
-                            <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>PRESALE EARLY</h3>
+                            {/* <h3 style={{ fontFamily: 'Silkscreen', fontSize: '50px' }}>PRESALE EARLY</h3> */}
                         </div>
                     </div>
                 </div>
@@ -216,7 +278,7 @@ const MainContent = () => {
                                     </div>
                                     <div className="about_text">
                                         <p>SOLANA CHADS is a cool token on the Solana blockchain that uses smart tech and awesome data analytics. It's not just a token; it's your sidekick in the big crypto world. With $SODS, investing is easy, fun, and rewarding. Get ready for a functional product right from the start, and we have even more cool features in the works to make your crypto adventure awesome!</p>
-                                        <a className="read_more" href="about.html">Read More</a>
+                                        {/* <a className="read_more" href="about.html">Read More</a> */}
                                     </div>
                                 </div>
                                 <div className="col-md-6">
@@ -312,7 +374,7 @@ const MainContent = () => {
                                         <p style={{ fontSize: '20px' }}>If you prefer an alternative way to participate in the presale or encounter difficulties accessing the dapp or connecting your wallet to our website for security reasons, you can still join the presale. Simply send SOL directly to $SODS.sol</p><br/>
                                         <img src={process.env.PUBLIC_URL + 'images/qr.jpg'} style={{ width: '500px' }} alt="QR Code" /><br/><br/>
                                         <h2 style={{ fontSize: '20px' }}>Secure Your SOLANA CHADS Tokens Now</h2><br/>
-                                        <button className="btn btn-primary btn-lg" id="connectWallet">Buy Now</button>  
+                                        <button className="btn btn-outline-warning btn-lg buy_now_scroll " id="connectWallet">Buy Now</button>  
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +424,7 @@ const MainContent = () => {
                                         </div>
                                     </div><br/>
                                     <div className="text-center">
-                                        <div className="card text-center" style={{ width: '32%' }}>
+                                        <div className="card text-center">
                                             <img className="card-img-top" src={process.env.PUBLIC_URL + 'images/Small-Logo/n2.png'} alt="Card image cap"/>
                                             <div className="card-body">
                                                 <h1 className="card-title" style={{ fontFamily: 'Silkscreen' }}>TEAM MEMBER & MARKETING</h1>

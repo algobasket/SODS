@@ -16,7 +16,7 @@ function WhitepaperPage() {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="titlepage">
-                                        <h2 style={{ fontFamily: 'Silkscreen', fontSize: '70px' }} className="text_align_center">White Paper</h2>
+                                        <h2 style={{ fontFamily: 'Silkscreen', fontSize: '400%' }} className="text_align_center">White Paper</h2>
                                         <br />
                                         <h3 style={{ fontFamily: 'Silkscreen' }} className="text_align_center">Discover the SODS Ecosystem</h3>
                                         <br />
